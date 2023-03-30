@@ -1,0 +1,50 @@
+a {
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+a:hover {
+    color: grey;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+body {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+    margin: 10px;
+    float: right;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.mario {
+    height: 250px;
+}
+nav {
+    background-color: rgb(214, 214, 214);
+    border-radius: 5px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+}
+.homepage-image {
+    display: flex;
+    justify-content: center;
+}
+.not-found {
+    display: flex;
+    justify-content: center;
+}
